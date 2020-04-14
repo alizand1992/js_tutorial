@@ -1,0 +1,23 @@
+{
+  "name": "js_tutorial",
+  "version": "0.0.1",
+  "description": "Javascript ES5 and jQuery tutorial for DD.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alizand1992/js_tutorial.git"
+  },
+  "author": "Ali Zand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alizand1992/js_tutorial/issues"
+  },
+  "homepage": "https://github.com/alizand1992/js_tutorial#readme"
+}
