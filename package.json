@@ -4,6 +4,7 @@
   "description": "Javascript ES5 and jQuery tutorial for DD.",
   "main": "index.js",
   "dependencies": {
+    "jest": "^25.3.0",
     "jquery": "^3.5.0"
   },
   "devDependencies": {},
