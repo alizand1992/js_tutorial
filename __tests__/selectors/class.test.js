@@ -24,6 +24,7 @@ describe('Class', () => {
     expect($('.removeMe')).toHaveLength(3);
     $('#run').click();
     expect($('.removeMe')).toHaveLength(0);
+    expect($('#body').children()).toHaveLength(7);
   });
 
   test('Change multiple with class', () => {
@@ -34,6 +35,10 @@ describe('Class', () => {
     $('.changeMyText').forEach((ele) => {
       expect(ele.text()).toBe('I got changed!');
     });
+
+    $('.changeMyText, .index').forEach((ele) => {
+      expect(ele.text()).not.toBe('I got changed!');
+    });
   });
 
   test('Change with index', () => {
@@ -43,5 +48,5 @@ describe('Class', () => {
     $('.index').forEach((ele, index) => {
       expect(ele.text()).toBe(index);
     });
-  });
+  });∂
 });
